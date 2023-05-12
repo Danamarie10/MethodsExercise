@@ -30,6 +30,7 @@ namespace MethodsExercise
         {
             return num1 % num2;
         }
+
         static void Main(string[] args)
         {
 
@@ -38,6 +39,8 @@ namespace MethodsExercise
             var applesLeft = Subtract(100, 25);
             var halves = Divide(25, 5);
             var last = Modulous(17, 4);
+
+            Console.WriteLine($"Add:{amountOfCars},Multiply:{whatever},Subtract:{applesLeft},Divide:{halves},Modulous:{last}");
 
             //Exercise 1
             //Your name: Dana
