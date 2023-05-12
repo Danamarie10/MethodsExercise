@@ -1,9 +1,44 @@
-﻿namespace MethodsExercise
+﻿using System.ComponentModel;
+
+namespace MethodsExercise
 {
     public class Program
     {
+        public static int Sum(int num1, int num2)
+        
+        {
+        var answer = num1 + num2;
+            return answer; 
+
+}
+        public static int Multiply(int num1, int num2, int num3)
+        {
+            return num1 * num2 * num3;
+        }
+
+        public static int Subtract(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+
+        public static int Divide(int num1, int num2)
+        {
+            return num1 / num2;
+        }
+
+        public static int Modulous(int num1, int num2)
+        {
+            return num1 % num2;
+        }
         static void Main(string[] args)
         {
+
+            var amountOfCars = Sum(2, 6);
+            var whatever = Multiply(60, 2, 5);
+            var applesLeft = Subtract(100, 25);
+            var halves = Divide(25, 5);
+            var last = Modulous(17, 4);
+
             //Exercise 1
             //Your name: Dana
             //Favorite Color: Green
@@ -29,6 +64,10 @@
             Console.WriteLine($"Favorite Color:{Color}");
             Console.WriteLine($"Favorite Animal:{animal}");
             Console.WriteLine($"Favorite Band:{band}");
+
+
+            //Exercise 2
+
         }
     }
 }
